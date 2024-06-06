@@ -94,7 +94,7 @@ void init_i2c(void);
 void send_i2c(uint8_t device_addr, uint8_t reg_addr, uint8_t value);
 void read_i2c(uint8_t device_addr, uint8_t reg_addr, uint8_t *rxBuff, uint32_t rxSize);
 uint16_t DataProcess (int X,int Y);
-int x_max = 0, x_min = 0, y_max = 0,y_min = 0,x_offset = 0,y_offset = 0,x,y,z;
+int16_t x_max = 0, x_min = 0, y_max = 0,y_min = 0,x_offset = 0,y_offset = 0,x,y,z;
 int main(void)
 {
 	int first = 0;
